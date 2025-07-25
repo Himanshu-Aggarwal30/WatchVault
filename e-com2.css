@@ -1405,7 +1405,7 @@ form a {
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        gap: 35px;
+        gap: 20px;
     }
 
     .navbar {
