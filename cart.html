@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> WatchVault | Cart</title>
+    <link rel="stylesheet" href="e-com2.css">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="e-com.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <!-- LOGO -->
+                <div class="logo">
+                    <a href="main.html">
+                        <img src="Assets/wv2.png" alt="WatchVault" width="300" height="200">
+                    </a>
+                </div>
+
+                <!-- MOBILE: burger + cart -->
+                <div class="nav-icons-mobile">
+                    <i class="fa fa-bars hover-color" id="menu-btn" onclick="openNav()"></i>
+                    <a href="cart.html">
+                        <img src="Assets/cart.png" id="cart-icon" alt="Cart">
+                    </a>
+                </div>
+
+                <!-- DESKTOP NAV -->
+                <nav class="nav-flex">
+                    <ul id="MenuItems">
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="abtus.html">About</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                        <li><a href="cart.html">
+                                <img src="Assets/cart.png" width="30px" height="30px" alt="Cart">
+                            </a></li>
+                    </ul>
+                </nav>
+
+                <!-- SLIDE-IN SIDENAV -->
+                <div id="sideNav" class="side-nav">
+                    <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+                    <ul>
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="abtus.html">About</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </div>
+
+                <!-- OVERLAY BACKGROUND -->
+                <div id="overlay" class="overlay" onclick="closeNav()"></div>
+            </div>
+        </div>
+    </div>
+    <!------cart items details----------->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="Assets/swtr1.jpg">
+                        <div>
+                            <p>Xylys Triumph Swiss Stainless Steel Blue Dial Chronograph Watch for Men</p>
+                            <small>Price: Rs 32,500.00</small><br>
+                            <a href="triumph.html">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rs 32,500.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="Assets/cn1.jpg">
+                        <div>
+                            <p>Xylys Swiss Chronograph Two Toned Stainless Steel Strap and Grey Dial Watch For Men</p>
+                            <small>Price: Rs 47,000.00</small><br>
+                            <a href="chronograph.html">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>Rs 47,000.00</td>
+            </tr>
+        </table>
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>Rs 79,500.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>(INCLUDED)</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>Rs 79,500.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-----------------footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phones.</p>
+                    <div class="app-logo">
+                        <img src="Assets/download (3).jpg">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Assets/wv2.png">
+                    <p>Our Purpose is to sustainably make the pleasure and
+                        satisfaction of watches accessible to the many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <font align="center">
+                <p class="Copyright"><i class="fa fa-copyright"></i> Copyright 2024</p>
+            </font>
+            <p style="text-align: center;">This is a project</p>
+
+        </div>
+    </div>
+
+    <script src="e-com.js"></script>
+</body>
+
+</html>

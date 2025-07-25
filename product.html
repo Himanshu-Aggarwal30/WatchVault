@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | WatchVault</title>
+    <link rel="stylesheet" href="e-com2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="e-com.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <!-- LOGO -->
+                <div class="logo">
+                    <a href="main.html">
+                        <img src="Assets/wv2.png" alt="WatchVault" width="300" height="200">
+                    </a>
+                </div>
+
+                <!-- MOBILE: burger + cart -->
+                <div class="nav-icons-mobile">
+                    <i class="fa fa-bars hover-color" id="menu-btn" onclick="openNav()"></i>
+                    <a href="cart.html">
+                        <img src="Assets/cart.png" id="cart-icon" alt="Cart">
+                    </a>
+                </div>
+
+                <!-- DESKTOP NAV -->
+                <nav class="nav-flex">
+                    <ul id="MenuItems">
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="abtus.html">About</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                        <li><a href="cart.html">
+                                <img src="Assets/cart.png" width="30px" height="30px" alt="Cart">
+                            </a></li>
+                    </ul>
+                </nav>
+
+                <!-- SLIDE-IN SIDENAV -->
+                <div id="sideNav" class="side-nav">
+                    <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+                    <ul>
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="abtus.html">About</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </div>
+
+                <!-- OVERLAY BACKGROUND -->
+                <div id="overlay" class="overlay" onclick="closeNav()"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Main Product Section -->
+    <div class="small-container">
+        <div class="row-2">
+            <h2>Explore Our Watches</h2>
+            <select>
+                <option>Default</option>
+                <option>Sort by popularity</option>
+                <option>Sort by rating</option>
+                <option>Sort by sale</option>
+                <option>Sort by Price</option>
+            </select>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="product-row">
+
+            <!-- Products -->
+        </div>
+
+        <!-- Pagination Buttons -->
+        <div class="page-btn">
+            <!-- Page numbers -->
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phones.</p>
+                    <div class="app-logo">
+                        <img src="Assets/download (3).jpg">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Assets/wv2.png">
+                    <p>Our Purpose is to sustainably make the pleasure and
+                        satisfaction of watches accessible to the many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <font align="center">
+                <p class="Copyright"><i class="fa fa-copyright"></i> Copyright 2024</p>
+            </font>
+            <p style="text-align: center;">This is a project</p>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

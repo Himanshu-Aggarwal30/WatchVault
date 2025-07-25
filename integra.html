@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatchVault | Xylys Integra</title>
+    <link rel="stylesheet" href="e-com2.css">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="main.html"><img src="Assets/wv2.png" alt="WatchVault" width="300" height="200"></a>
+                </div>
+
+                <!-- Mobile Nav -->
+                <div class="nav-icons-mobile">
+                    <i class="fa fa-bars hover-color" id="menu-btn" onclick="openNav()"></i>
+                    <a href="cart.html"><img src="Assets/cart.png" id="cart-icon" alt="Cart"></a>
+                </div>
+
+                <!-- Desktop Nav -->
+                <nav class="nav-flex">
+                    <ul id="MenuItems">
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="abtus.html">About</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                        <li>
+                            <a href="cart.html">
+                                <img src="Assets/cart.png" width="30" height="30" alt="Cart">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Slide Nav -->
+                <div id="sideNav" class="side-nav">
+                    <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+                    <ul>
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="abtus.html">About</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </div>
+                <div id="overlay" class="overlay" onclick="closeNav()"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Single Product Details -->
+    <div class="small-container single-product">
+        <div class="row">
+            <!-- Product Images -->
+            <div class="product-images">
+                <img src="Assets/int1.jpg" id="ProductImg" alt="Xylys Integra">
+                <div class="small-img-row">
+                    <img src="Assets/int1.jpg" class="small-img" alt="">
+                    <img src="Assets/int2.jpg" class="small-img" alt="">
+                    <img src="Assets/int3.jpg" class="small-img" alt="">
+                    <img src="Assets/int4.jpg" class="small-img" alt="">
+                </div>
+            </div>
+
+            <!-- Product Details -->
+            <div class="product-details">
+                <p><a href="main.html" style="color: black; font-weight: bold;">Home / </a>Xylys</p>
+                <br>
+                <h3>Xylys</h3>
+                <h1>Xylys Integra Swiss Stainless Steel Black Dial Analog Watch for Men</h1>
+                <h4>₹30,000.00</h4>
+                <input type="number" id="quantity" value="1" min="1">
+                <button class="atc" id="addToCartBtn">Add To Cart</button>
+
+                <h3>Product Details<i class="fa fa-indent"></i></h3><br>
+                <p style="text-align: justify;">This watch from the Integra collection is powered by the Swiss-made
+                    Ronda Calibre 515 movement, known
+                    for its reliability. The 316L stainless steel case is accented with rose gold-plated elements and
+                    houses a midnight black dial with a Clou de Paris-inspired pattern and a date window at 6 O'clock.
+                    Rose gold-plated hands and indices, enhanced with Superluminova, offer excellent visibility. The
+                    integrated bracelet features multi-finished links with rose gold-plated accents, creating a perfect
+                    blend of sport and elegance. Sapphire glass with multiple layers of anti-reflective coating protects
+                    the dial, and the watch is water-resistant up to 5 ATM.</p>
+                <br>
+                <h3>Product Specification<i class="fa fa-indent"></i></h3><br>
+                <ul type="none">
+                    <li>Gender: Men</li>
+                    <li>Warranty: 36 Months</li>
+                    <li>Movement: Quartz</li>
+                    <li>Dial Color: Black</li>
+                    <li>Case Shape: Special</li>
+                    <li>Case Material: Stainless Steel</li>
+                    <li>Case Length: 49.40 mm</li>
+                    <li>Case Width: 44.00 mm</li>
+                    <li>Case Thickness: 9.80 mm</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Related Products -->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <p><a href="product.html" style="color: red;">View More</a></p>
+        </div>
+        <div class="row related-products">
+            <div class="col-4">
+                <a href="nebulaquartz.html"><img src="Assets/nebulaquartz.jpg" alt=""></a>
+                <h4>Titan Nebula Quartz 18K</h4>
+                <p>₹685,000.00</p>
+            </div>
+            <div class="col-4">
+                <a href="triwhite.html"><img src="Assets/tw5.jpg" alt=""></a>
+                <h4>Xylys Triumph Swiss White Dial</h4>
+                <p>₹30,000.00</p>
+            </div>
+            <div class="col-4">
+                <a href="multiblack.html"><img src="Assets/mb2.jpg" alt=""></a>
+                <h4>Xylys Swiss Multifunction Black Leather</h4>
+                <p>₹16,720.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and iOS.</p>
+                    <img src="Assets/download (3).jpg" alt="">
+                </div>
+                <div class="footer-col-2">
+                    <img src="Assets/wv2.png" alt="">
+                    <p>Our Purpose is to make luxury watches accessible to everyone.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">© 2024 WatchVault</p>
+            <p style="text-align: center;">This is a project</p>
+
+        </div>
+    </div>
+
+    <!-- Mini Cart Popup -->
+    <div id="miniCartPopup" class="mini-cart-popup" style="display:none;">
+        <span class="close-mini-cart">&times;</span>
+        <h4>Item Added to Cart</h4>
+        <img id="miniCartImage" src="" alt="Product" width="70">
+        <p id="miniCartName"></p>
+        <p id="miniCartPrice"></p>
+        <p id="miniCartQuantity"></p>
+        <a href="cart.html" class="view-cart-btn">View Cart</a>
+    </div>
+
+    <script src="e-com.js"></script>
+</body>
+
+</html>

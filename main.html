@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> WatchVault</title>
+    <link rel="stylesheet" href="e-com2.css">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="e-com.js" defer></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <!-- LOGO -->
+                <div class="logo">
+                    <a href="main.html">
+                        <img src="Assets/wv2.png" alt="WatchVault" width="300" height="200">
+                    </a>
+                </div>
+
+                <!-- MOBILE: burger + cart -->
+                <div class="nav-icons-mobile">
+                    <i class="fa fa-bars hover-color" id="menu-btn" onclick="openNav()"></i>
+                    <a href="cart.html">
+                        <img src="Assets/cart.png" id="cart-icon" alt="Cart">
+                    </a>
+                </div>
+
+                <!-- DESKTOP NAV -->
+                <nav class="nav-flex">
+                    <ul id="MenuItems">
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="abtus.html">About</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                        <li><a href="cart.html">
+                                <img src="Assets/cart.png" width="30px" height="30px" alt="Cart">
+                            </a></li>
+                    </ul>
+                </nav>
+
+                <!-- SLIDE-IN SIDENAV -->
+                <div id="sideNav" class="side-nav">
+                    <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+                    <ul>
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="abtus.html">About</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </div>
+
+                <!-- OVERLAY BACKGROUND -->
+                <div id="overlay" class="overlay" onclick="closeNav()"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="Assets\wv2.png" height="200px" width="400px">
+                </div>
+                <div class="col">
+                    <p>
+                        Success is not final, failure is not fatal:<br>
+                        it is the courage to continue that counts...
+                    </p>
+                    <a href="product.html" class="btn2">Explore Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------ featured categories ------->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <a href="integra.html"><img src="Assets\integra1.png" height="390"></a>
+                </div>
+                <div class="col-3">
+                    <a href="triumph.html"><img src="Assets\triumph1.png" height="390px"></a>
+                </div>
+                <div class="col-3">
+                    <a href="nebulaquartz.html"><img src="Assets/nebulaquartz1.png" height="390"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------ featured products ------->
+    <div class="small-container">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <br>
+            <div class="row">
+                <div class="col-4">
+                    <a href="triwhite.html"><img src="Assets/triwhite.jpg"></a>
+                    <h4>Xylys Triumph Swiss Stainless Steel White Dial Chronograph Watch for Men</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <p>Rs. 30,000.00</p>
+                </div>
+                <div class="col-4">
+                    <a href="edgeq.html"><img src="Assets/edgequartz.jpg"></a>
+                    <h4>Titan Edge Quartz Analog Champagne Dial Stainless Steel Strap Watch for Men</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>Rs 12,745.00</p>
+                </div>
+
+
+                <div class="col-4">
+                    <a href="multiblack.html"> <img src="Assets/mb2.jpg"></a>
+                    <h4>Xylys Swiss Multifunction Black Leather Strap</h4>
+                    <br>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>Rs. 16,720.00</p>
+                </div>
+
+
+            </div>
+            <h2 class="title">Latest Products</h2>
+            <br>
+            <div class="row">
+                <div class="col-4">
+                    <a href="nebulaquartz.html"> <img src="Assets/nebulaquartz.jpg"></a>
+                    <h4>Titan Nebula Nebula Quartz Analog 18 Karat Solid Gold Watch for Men</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star€"></i>
+                        <i class="fa fa-star€"></i>
+                    </div>
+                    <p>Rs. 685,000.0</p>
+                </div>
+                <div class="col-4">
+                    <a href="integra.html"> <img src="Assets/integra.jpg"></a>
+                    <h4>Xylys Integra Swiss Stainless Steel Black Dial Analog Watch for Men</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <p>Rs 30,000.00</p>
+                </div>
+
+                <div class="col-4">
+                    <a href="chronograph.html"> <img src="Assets/chronograph.jpg"></a>
+                    <h4>Xylys Swiss Chronograph Two Toned Stainless Steel Strap and Grey Dial Watch For Men</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>Rs.47,000.00</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!--------- offer -------->
+    <div class="offer">
+        <div class="samll-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="Assets/nv.png" height="400px" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p style="background-color:black;color:white;">Exclusively Available on WatchVault</p>
+                    <h1>Titan Nebula Vintage 18k Solid Gold Analog </h1>
+                    <small>Nebula Vintage Collection - 18K Gold Elegance with Precision Quartz Movement. This vintage
+                        timepiece from the Nebula Collection is crafted in luxurious 18K gold, exuding elegance and
+                        timeless appeal.</small>
+                    <a href="nebulavintage.html" class="atc">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------- testimonail ---------->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="container">
+                <h2 class="title">Valuable Feedbacks</h2>
+                <br>
+                <div class="row">
+                    <div class="col-3 colcat">
+                        <i class="fa fa-quote-left"></i>
+                        <p>It is a premier reseller offering an exceptional collection of luxury timepieces. With expert
+                            curation, impeccable service, and authentic, high-quality watches, it’s the go-to
+                            destination
+                            for discerning collectors.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+
+                        <h3>Sean parker</h3>
+                    </div>
+
+                    <div class="col-3 colcat">
+                        <i class="fa fa-quote-left"></i>
+                        <p>It is a top-tier reseller, providing an outstanding selection of luxury watches. With
+                            unmatched
+                            expertise, authentic products, and superior service, it’s a trusted destination for serious
+                            collectors.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+
+                        <h3>Mable Joe</h3>
+                    </div>
+                    <div class="col-3 colcat">
+                        <i class="fa fa-quote-left"></i>
+                        <p>WatchVault stands out as a premium reseller, offering a curated range of high-end timepieces.
+                            Their commitment to authenticity, quality, and exceptional customer service makes them a
+                            leader
+                            in luxury watch sales.</p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+
+                        <h3>Mike Smith</h3>
+                    </div>
+                </div>
+            </div>
+            <!----------- brands --------------->
+            <div class="brands">
+                <div class="small-container">
+                    <div class="container">
+                        <h2 class="title">Our Trusted Partners</h2>
+                        <br>
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="Assets/titan-logo.svg">
+                            </div>
+                            <div class="col-5">
+                                <img src="Assets/Bulgari.png">
+                            </div>
+                            <div class="col-5">
+                                <img src="Assets/cartier.png">
+                            </div>
+                            <div class="col-5">
+                                <img src="Assets/Omega.svg">
+                            </div>
+                            <div class="col-5">
+                                <img src="Assets/Rolex_logo.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----------------footer-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and ios mobile phones.</p>
+                        <div class="app-logo">
+                            <img src="Assets/download (3).jpg">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="Assets/wv2.png">
+                        <p>Our Purpose is to sustainably make the pleasure and
+                            satisfaction of watches accessible to the many.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="Copyright"><i class="fa fa-copyright"></i> Copyright 2024</p>
+                <p style="text-align: center;">This is a project</p>
+
+            </div>
+        </div>
+
+        <script src="e-com.js"></script>
+
+</body>
+
+</html>

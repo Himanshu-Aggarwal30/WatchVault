@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatchVault | About Us</title>
+    <link rel="stylesheet" href="e-com2.css">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="e-com.js" defer></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <!-- LOGO -->
+                <div class="logo">
+                    <a href="main.html">
+                        <img src="Assets/wv2.png" alt="WatchVault" width="300" height="200">
+                    </a>
+                </div>
+
+                <!-- MOBILE: burger + cart -->
+                <div class="nav-icons-mobile">
+                    <i class="fa fa-bars hover-color" id="menu-btn" onclick="openNav()"></i>
+                    <a href="cart.html">
+                        <img src="Assets/cart.png" id="cart-icon" alt="Cart">
+                    </a>
+                </div>
+
+                <!-- DESKTOP NAV -->
+                <nav class="nav-flex">
+                    <ul id="MenuItems">
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="abtus.html">About</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                        <li><a href="cart.html">
+                                <img src="Assets/cart.png" width="30px" height="30px" alt="Cart">
+                            </a></li>
+                    </ul>
+                </nav>
+
+                <!-- SLIDE-IN SIDENAV -->
+                <div id="sideNav" class="side-nav">
+                    <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+                    <ul>
+                        <li><a href="main.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="abtus.html">About</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </div>
+
+                <!-- OVERLAY BACKGROUND -->
+                <div id="overlay" class="overlay" onclick="closeNav()"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section id="about-us" class="about-section">
+        <div class="container">
+            <h1 class="section-title">Who We Are</h1>
+            <br>
+            <font size="4">
+                <p class="about-description">
+                    Welcome to <strong>WatchVault</strong>, your trusted destination for luxury and premium
+                    wristwatches.
+                    We specialize in sourcing and reselling finely crafted timepieces from the world’s most renowned
+                    brands.
+                </p>
+                <p class="about-description">
+                    Whether you're searching for a classic heritage model, a limited-edition release, or a rare
+                    collector’s item,
+                    WatchVault brings you expertly authenticated watches that combine timeless elegance with modern
+                    craftsmanship.
+                </p>
+                <p class="about-description">
+                    Our goal is to make luxury accessible while maintaining uncompromising standards of quality, trust,
+                    and service.
+                </p>
+            </font>
+        </div>
+    </section>
+    <br>
+
+    <section id="what-we-do" class="what-we-do-section">
+        <div class="container">
+            <h1 class="section-title">What We Do</h1>
+            <br>
+            <div class="what-we-do-box">
+                <h2>Authentic Watch Resale</h2>
+                <font size="4">
+                    <p>
+                        Every timepiece we offer undergoes rigorous inspection to ensure authenticity and top condition.
+                        We work closely with certified experts and established suppliers to ensure that what you receive
+                        is 100% genuine and exceptional.
+                    </p>
+                </font>
+            </div>
+            <br>
+            <div class="what-we-do-box">
+                <h2>Customer-Centric Delivery</h2>
+                <font size="4">
+                    <p>
+                        From the moment you place your order to the final delivery, we ensure a smooth, secure, and
+                        timely experience.
+                        Our logistics team partners with top courier services to deliver your watch safely — wherever
+                        you are.
+                    </p>
+                </font>
+            </div>
+            <br>
+            <div class="what-we-do-box">
+                <h2>Digital Experience</h2>
+                <font size="4">
+                    <p>
+                        Our online platform is designed to offer a seamless browsing and buying experience.
+                        With detailed product insights, secure payments, and responsive support,
+                        WatchVault is as much a digital boutique as it is a luxury brand destination.
+                    </p>
+                </font>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="cta-section">
+        <h2>Ready to Elevate Your Style?</h2>
+        <p style="color: white">Explore our handpicked collection of premium timepieces now.</p>
+        <a href="product.html" class="cta-button">Explore Watches</a>
+    </section>
+
+    <section class="team-section">
+        <div class="container">
+            <h2>Meet Our Team</h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="Assets/male.jpg" alt="Founder - Himanshu Aggarwal">
+                    <h3>Himanshu Aggarwal</h3>
+                    <p>Founder & CEO of WatchVault, Himanshu brings 10+ years of retail and brand partnership
+                        experience.
+                    </p>
+                </div>
+                <div class="team-member">
+                    <img src="Assets/female.jpg" alt="Marketing Lead - XYZ">
+                    <h3>XYZ</h3>
+                    <p>Marketing & Strategy Lead, Anika is the creative brain behind our digital presence and campaigns.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Animated Counters -->
+    <section class="counters">
+        <div class="container">
+            <h2>WatchVault's Impact</h2>
+            <div class="counter-box">
+                <h3 id="counter1">0</h3>
+                <p>Watches Sold</p>
+            </div>
+            <div class="counter-box">
+                <h3 id="counter2">0</h3>
+                <p>Happy Customers</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <h2>Join the Vault</h2>
+        <p style="color: white">Be a part of our exclusive mailing list to get early access to new launches, luxury
+            deals, and limited
+            editions.</p>
+        <a href="#subscribe">Subscribe Now</a>
+    </section>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and iOS mobile phones.</p>
+                    <div class="app-logo">
+                        <img src="Assets/download (3).jpg" alt="App Logo">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Assets/wv2.png" alt="WatchVault Logo">
+                    <p>Our purpose is to sustainably make the pleasure and satisfaction of watches accessible to the
+                        many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright" style="text-align: center;"><i class="fa fa-copyright"></i> Copyright 2024</p>
+            <p style="text-align: center;">This is a project</p>
+
+        </div>
+    </div>
+</body>
+
+</html>
